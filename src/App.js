@@ -1,5 +1,12 @@
-function App() {
-	return <div className="App">고양이 키우기</div>;
-}
+import React from 'react';
+import Test1 from './components/Test1';
+
+const App = () => {
+	return (
+		<div className="App">
+			<Test1 />
+		</div>
+	);
+};
 
 export default App;
